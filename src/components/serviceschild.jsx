@@ -1,7 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { ViborgServicesAPI } from "../helpers/servicescapi";
-import ydelser from "../images/ydelser1.jpg";
 
 const Services = () => {
   const [services, setServices] = useState();
