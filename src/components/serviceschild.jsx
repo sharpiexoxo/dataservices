@@ -45,8 +45,7 @@ const Services = () => {
           <div className="services-content">
             {services.map((s, i) => (
               <div key={i}>
-                {/* Api'et returner undefined når jeg forsøger at hente billederne ind - derfor har jeg gemt et af dem lokalt i stedet */}
-                <img src={ydelser} alt="" />
+                <img src={`http://localhost:5023/images/${s.image}`} alt="" />
                 <h2>{s.title}</h2>
                 <p>{s.content}</p>
               </div>
